@@ -1,3 +1,10 @@
+修复GitHub action编译脚本
+https://github.com/frankie540/Padavan-KVR/blob/main/.github/workflows/Build-Padavan-deepseek.yml
+
+
+
+
+
 # Padavan
 代码基于vb1980和keke1023，感谢v大持续为老旧的系统更新软件版本。
 我做了一些整合优化。更新github  action云编译脚本和教程。
