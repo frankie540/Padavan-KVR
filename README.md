@@ -9,9 +9,9 @@ https://github.com/frankie540/Padavan-KVR/blob/main/.github/workflows/Build-Pada
 https://github.com/frankie540/Padavan-KVR/blob/main/.github/workflows/Build-Padavan-deepseek2.yml
 
 
-修改机型的插件模板 
+修改机型的插件模板
 
-https://github.com/frankie540/Padavan-KVR/tree/dev/trunk/configs/templates
+https://github.com/frankie540/Padavan-KVR/tree/main/trunk/configs/templates
 
 K2P:
 CONFIG_FIRMWARE_INCLUDE_SFE=y
