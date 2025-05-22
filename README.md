@@ -49,12 +49,10 @@ CONFIG_FIRMWARE_INCLUDE_SOCAT=y
 
 defaults.h 修改LAN口IP，WiFi名字密码， defaults.c 默认启动smartdns，ddnsto，sqm，关闭ipv6 
 
-https://github.com/frankie540/Padavan-KVR/tree/main/dev/trunk/user/shared/src
-
+https://github.com/frankie540/Padavan-KVR/tree/main/trunk/user/shared/src
 修改smartdns的smartdns_custom.conf 
 
-https://github.com/frankie540/Padavan-KVR/tree/main/dev/trunk/user/smartdns
-
+https://github.com/frankie540/Padavan-KVR/tree/main/trunk/user/smartdns
 
 
 # Padavan
