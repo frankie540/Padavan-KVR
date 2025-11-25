@@ -1,4 +1,4 @@
-name: Build-Padavan-deepseek
+name: Build-K2P
 
 on:
   workflow_dispatch:
