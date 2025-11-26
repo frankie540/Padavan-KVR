@@ -1,61 +1,26 @@
 
 2025/05
 
-
 使用deepseek进行GitHub action编译脚本的修复
 
 https://github.com/frankie540/Padavan-KVR/blob/main/.github/workflows/Build-Padavan-deepseek.yml
 
 https://github.com/frankie540/Padavan-KVR/blob/main/.github/workflows/Build-Padavan-deepseek2.yml
 
-
 修改机型的插件模板
 
 https://github.com/frankie540/Padavan-KVR/tree/main/trunk/configs/templates
 
-K2P:
-CONFIG_FIRMWARE_INCLUDE_SFE=y
-CONFIG_FIRMWARE_ENABLE_FUSE=y
-CONFIG_FIRMWARE_INCLUDE_XFRM=y
-CONFIG_FIRMWARE_INCLUDE_QOS=y
-CONFIG_FIRMWARE_INCLUDE_IMQ=y
-CONFIG_FIRMWARE_INCLUDE_IFB=y
-CONFIG_FIRMWARE_INCLUDE_IPSET=y
-CONFIG_FIRMWARE_INCLUDE_LANG_CN=y
-CONFIG_FIRMWARE_INCLUDE_PARTED=y
-CONFIG_FIRMWARE_INCLUDE_XUPNPD=y
-CONFIG_FIRMWARE_INCLUDE_CURL=y
-CONFIG_FIRMWARE_INCLUDE_LRZSZ=y
-CONFIG_FIRMWARE_INCLUDE_HTOP=y
-CONFIG_FIRMWARE_INCLUDE_RTL_SDR=y
-CONFIG_FIRMWARE_INCLUDE_MTR=y
-CONFIG_FIRMWARE_INCLUDE_SOCAT=y
+defaults.h 修改LAN口IP，WiFi名字密码。
+defaults.c 默认关闭ipv6
 
-WR330:
-CONFIG_FIRMWARE_ENABLE_FUSE=y
-CONFIG_FIRMWARE_INCLUDE_XFRM=y
-CONFIG_FIRMWARE_INCLUDE_QOS=y
-CONFIG_FIRMWARE_INCLUDE_IMQ=y
-CONFIG_FIRMWARE_INCLUDE_IFB=y
-CONFIG_FIRMWARE_INCLUDE_IPSET=y
-CONFIG_FIRMWARE_INCLUDE_LANG_CN=y
-CONFIG_FIRMWARE_INCLUDE_PARTED=y
-CONFIG_FIRMWARE_INCLUDE_XUPNPD=y
-CONFIG_FIRMWARE_INCLUDE_LRZSZ=y
-CONFIG_FIRMWARE_INCLUDE_HTOP=y
-CONFIG_FIRMWARE_INCLUDE_RTL_SDR=y
-CONFIG_FIRMWARE_INCLUDE_MTR=y
-CONFIG_FIRMWARE_INCLUDE_SOCAT=y
-
-defaults.h 修改LAN口IP，WiFi名字密码， defaults.c 默认启动smartdns，ddnsto，sqm，关闭ipv6 
-
-[https://github.com/frankie540/Padavan-KVR/tree/main/trunk/user/shared/src
-](https://github.com/frankie540/Padavan-KVR/blob/main/trunk/user/shared)
+https://github.com/frankie540/Padavan-KVR/tree/main/trunk/user/shared/src
 
 修改smartdns的smartdns_custom.conf 
 
 https://github.com/frankie540/Padavan-KVR/tree/main/trunk/user/smartdns
 
+已测试smartdns，ddnsto，sqm无法启动，默认编译纯净版固件。
 
 # Padavan
 代码基于vb1980和keke1023，感谢v大持续为老旧的系统更新软件版本。
