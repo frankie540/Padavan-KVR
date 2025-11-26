@@ -13,6 +13,14 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston,
  * MA 02111-1307 USA
+ *
+ * #if defined(BOARD_ROLE_REPEATER)
+ * 	{ "sw_mode", "3" },
+ * #else
+ * 	{ "sw_mode", "3" },
+ * #endif
+ * #修改此处为3AP模式，1为路由器模式。
+ *
  */
 
 #include <ralink_boards.h>
@@ -1000,11 +1008,10 @@ struct nvram_pair router_defaults[] = {
 	{ "fw_pt_pppoe", "0" },
 
 #if defined(BOARD_ROLE_REPEATER)
-	{ "sw_mode", "1" },
+	{ "sw_mode", "3" },
 #else
 	{ "sw_mode", "3" },
 #endif
-#修改此处为3AP模式，1为路由器模式。上1下3是AP模式。
 
 	{ "telnetd", "0" },
 	{ "sshd_enable", "1" },
