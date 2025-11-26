@@ -1000,11 +1000,11 @@ struct nvram_pair router_defaults[] = {
 	{ "fw_pt_pppoe", "0" },
 
 #if defined(BOARD_ROLE_REPEATER)
-	{ "sw_mode", "3" },
+	{ "sw_mode", "1" },
 #else
 	{ "sw_mode", "3" },
 #endif
-#修改此处为3AP模式，1为路由器模式。
+#修改此处为3AP模式，1为路由器模式。上1下3是AP模式。
 
 	{ "telnetd", "0" },
 	{ "sshd_enable", "1" },
