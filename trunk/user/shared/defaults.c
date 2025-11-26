@@ -1002,8 +1002,9 @@ struct nvram_pair router_defaults[] = {
 #if defined(BOARD_ROLE_REPEATER)
 	{ "sw_mode", "3" },
 #else
-	{ "sw_mode", "1" },
+	{ "sw_mode", "3" },
 #endif
+#修改此处为3AP模式，1为路由器模式。
 
 	{ "telnetd", "0" },
 	{ "sshd_enable", "1" },
