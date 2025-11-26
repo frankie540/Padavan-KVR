@@ -3,7 +3,7 @@
 
 使用deepseek进行GitHub action编译脚本的修复
 
-https://github.com/frankie540/Padavan-KVR/blob/main/.github/workflows/Build-Padavan-deepseek.yml
+https://github.com/frankie540/Padavan-KVR/blob/main/.github/workflows/Build-Padavan-deepseek-K2P.yml
 
 https://github.com/frankie540/Padavan-KVR/blob/main/.github/workflows/Build-Padavan-deepseek2.yml
 
